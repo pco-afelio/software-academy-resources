@@ -6,4 +6,15 @@
   version="3.0"
   metadata-complete="true">  
   
+  <servlet>
+	<servlet-name>Today</servlet-name>
+	<servlet-class>be.afelio.pco.Day</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+	<servlet-name>Today</servlet-name>
+	<url-pattern>/now</url-pattern>
+  </servlet-mapping>
+  
 </web-app>
+
